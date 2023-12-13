@@ -1,0 +1,7 @@
+<h1>All Markets</h1>
+
+<% @markets.each do |market| %>
+  <p>Name: <%= market.name %></p>
+  <p>City: <%= market.city %></p>
+  <p>State: <%= market.state %></p><br>
+<% end %>

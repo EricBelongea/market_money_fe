@@ -59,8 +59,8 @@ group :development, :test do
   gem "capybara"
   gem "launchy"
 
-  gem "webmock"
-  gem "vcr"
+  # gem "webmock"
+  # gem "vcr"
 end
 
 group :development do
