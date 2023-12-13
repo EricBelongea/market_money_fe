@@ -9,6 +9,6 @@ RSpec.describe "Markets Index" do
     visit markets_path
 
     expect(page).to have_content("All Markets")
-    
+
   end
 end
