@@ -5,7 +5,7 @@ RSpec.describe "Markets Index" do
 
   end
 
-  it "Index page should show all markets" do
+  it "Index page should show all markets", :vcr do
     visit markets_path
 
     expect(page).to have_content("All Markets")
