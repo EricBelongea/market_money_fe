@@ -14,7 +14,6 @@ class MarketFacade
   def self.market_vendors(id)
     json_response = MarketService.market_vendors(id)
     json_response[:data].map do |vendor|
-      # require 'pry'; binding.pry
       Vendor.new(vendor)
     end
   end
