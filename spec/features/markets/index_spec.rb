@@ -10,5 +10,6 @@ RSpec.describe "Markets Index" do
 
     expect(page).to have_content("All Markets")
 
+    expect(page).to have_link("More Info")
   end
 end

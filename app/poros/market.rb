@@ -1,7 +1,8 @@
 class Market
-  attr_reader :name, :city, :state, :street, :county, :zip, :lat, :lon, :vendor_count, :type
+  attr_reader :id, :name, :city, :state, :street, :county, :zip, :lat, :lon, :vendor_count, :type
 
   def initialize(data)
+    @id = data[:id]
     @name = data[:attributes][:name]
     @city = data[:attributes][:city]
     @state = data[:attributes][:state]
