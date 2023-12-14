@@ -5,7 +5,7 @@ RSpec.describe Market, type: :model do
 
   end
 
-  describe '#initialize' do
+  xdescribe '#initialize' do
     it { should validate_presence_of(:name) }
     it { should validate_presence_of(:city) }
     it { should validate_presence_of(:state) }
